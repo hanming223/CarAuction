@@ -14,6 +14,9 @@
 		33C25F66215D0A2C0085E428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C25F64215D0A2C0085E428 /* LaunchScreen.storyboard */; };
 		33C25F71215D0A2C0085E428 /* CarAuctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C25F70215D0A2C0085E428 /* CarAuctionTests.swift */; };
 		33C25F7C215D0A2C0085E428 /* CarAuctionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C25F7B215D0A2C0085E428 /* CarAuctionUITests.swift */; };
+		461E6766EDD53C039158965D /* Pods_CarAuction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF9142C3E960F215A0A4206 /* Pods_CarAuction.framework */; };
+		622A8A3E8FF5AFBE98489052 /* Pods_CarAuctionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2484FCF2641961CD142D209 /* Pods_CarAuctionTests.framework */; };
+		65D4EA89803CFE72F393A8E6 /* Pods_CarAuctionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEF206E228AC3C628897BED /* Pods_CarAuctionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		33C25F77215D0A2C0085E428 /* CarAuctionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAuctionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C25F7B215D0A2C0085E428 /* CarAuctionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAuctionUITests.swift; sourceTree = "<group>"; };
 		33C25F7D215D0A2C0085E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D47FB46F76F6F2ABE1821C /* Pods-CarAuctionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuctionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuctionTests/Pods-CarAuctionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69A56006EE245DDC77C0BEB3 /* Pods-CarAuctionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuctionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuctionUITests/Pods-CarAuctionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AEF206E228AC3C628897BED /* Pods_CarAuctionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarAuctionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD515B4354B75A2B12C8AAE /* Pods-CarAuction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuction.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuction/Pods-CarAuction.release.xcconfig"; sourceTree = "<group>"; };
+		7E8FD44633AD976AD064A0EC /* Pods-CarAuctionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuctionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuctionUITests/Pods-CarAuctionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9806763590E5A5D10D315901 /* Pods-CarAuction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuction/Pods-CarAuction.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF9142C3E960F215A0A4206 /* Pods_CarAuction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarAuction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF4308DB654D1B758A75B5F /* Pods-CarAuctionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuctionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuctionTests/Pods-CarAuctionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2484FCF2641961CD142D209 /* Pods_CarAuctionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarAuctionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461E6766EDD53C039158965D /* Pods_CarAuction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622A8A3E8FF5AFBE98489052 /* Pods_CarAuctionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D4EA89803CFE72F393A8E6 /* Pods_CarAuctionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2523954455395A04D1BA23AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9806763590E5A5D10D315901 /* Pods-CarAuction.debug.xcconfig */,
+				6BD515B4354B75A2B12C8AAE /* Pods-CarAuction.release.xcconfig */,
+				54D47FB46F76F6F2ABE1821C /* Pods-CarAuctionTests.debug.xcconfig */,
+				BEF4308DB654D1B758A75B5F /* Pods-CarAuctionTests.release.xcconfig */,
+				69A56006EE245DDC77C0BEB3 /* Pods-CarAuctionUITests.debug.xcconfig */,
+				7E8FD44633AD976AD064A0EC /* Pods-CarAuctionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33C25F4F215D0A2C0085E428 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				33C25F6F215D0A2C0085E428 /* CarAuctionTests */,
 				33C25F7A215D0A2C0085E428 /* CarAuctionUITests */,
 				33C25F59215D0A2C0085E428 /* Products */,
+				2523954455395A04D1BA23AF /* Pods */,
+				CA5960C909E6D0FEE548E323 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = CarAuctionUITests;
 			sourceTree = "<group>";
 		};
+		CA5960C909E6D0FEE548E323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9142C3E960F215A0A4206 /* Pods_CarAuction.framework */,
+				D2484FCF2641961CD142D209 /* Pods_CarAuctionTests.framework */,
+				6AEF206E228AC3C628897BED /* Pods_CarAuctionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33C25F80215D0A2C0085E428 /* Build configuration list for PBXNativeTarget "CarAuction" */;
 			buildPhases = (
+				D8027D17220E79D4521416B1 /* [CP] Check Pods Manifest.lock */,
 				33C25F54215D0A2C0085E428 /* Sources */,
 				33C25F55215D0A2C0085E428 /* Frameworks */,
 				33C25F56215D0A2C0085E428 /* Resources */,
+				A562BB970237B5A15745A06C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33C25F83215D0A2C0085E428 /* Build configuration list for PBXNativeTarget "CarAuctionTests" */;
 			buildPhases = (
+				E2468423E0BEE08C7139D280 /* [CP] Check Pods Manifest.lock */,
 				33C25F68215D0A2C0085E428 /* Sources */,
 				33C25F69215D0A2C0085E428 /* Frameworks */,
 				33C25F6A215D0A2C0085E428 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33C25F86215D0A2C0085E428 /* Build configuration list for PBXNativeTarget "CarAuctionUITests" */;
 			buildPhases = (
+				AD2F8E16D89603D589AE75A8 /* [CP] Check Pods Manifest.lock */,
 				33C25F73215D0A2C0085E428 /* Sources */,
 				33C25F74215D0A2C0085E428 /* Frameworks */,
 				33C25F75215D0A2C0085E428 /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A562BB970237B5A15745A06C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarAuction/Pods-CarAuction-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarAuction/Pods-CarAuction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2F8E16D89603D589AE75A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarAuctionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8027D17220E79D4521416B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarAuction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2468423E0BEE08C7139D280 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarAuctionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33C25F54215D0A2C0085E428 /* Sources */ = {
@@ -428,10 +549,13 @@
 		};
 		33C25F81215D0A2C0085E428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9806763590E5A5D10D315901 /* Pods-CarAuction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4URJ54RTED;
 				INFOPLIST_FILE = CarAuction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +569,13 @@
 		};
 		33C25F82215D0A2C0085E428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD515B4354B75A2B12C8AAE /* Pods-CarAuction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4URJ54RTED;
 				INFOPLIST_FILE = CarAuction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +589,7 @@
 		};
 		33C25F84215D0A2C0085E428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D47FB46F76F6F2ABE1821C /* Pods-CarAuctionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +610,7 @@
 		};
 		33C25F85215D0A2C0085E428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF4308DB654D1B758A75B5F /* Pods-CarAuctionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +631,7 @@
 		};
 		33C25F87215D0A2C0085E428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A56006EE245DDC77C0BEB3 /* Pods-CarAuctionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +651,7 @@
 		};
 		33C25F88215D0A2C0085E428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8FD44633AD976AD064A0EC /* Pods-CarAuctionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
