@@ -8,6 +8,7 @@ target 'CarAuction' do
   # Pods for CarAuction
 
   pod 'SwiftyDropbox'
+  pod 'IQKeyboardManager'
 
   target 'CarAuctionTests' do
     inherit! :search_paths

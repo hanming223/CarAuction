@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (4.5.1)
+  - IQKeyboardManager (6.1.1)
   - SwiftyDropbox (4.6.0):
     - Alamofire (~> 4.5.0)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - SwiftyDropbox
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - IQKeyboardManager
     - SwiftyDropbox
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   SwiftyDropbox: 8af645e744de6f17b4e9fdeba21365b8dc55a542
 
-PODFILE CHECKSUM: a24050127df2d4f53b8526784272652f2c50ffd0
+PODFILE CHECKSUM: 9e30343736d729238a5f3d8549631c6f77286a4c
 
 COCOAPODS: 1.5.3
