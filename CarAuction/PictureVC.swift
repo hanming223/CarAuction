@@ -13,6 +13,7 @@ class PictureVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Form Information"
         
     }
 

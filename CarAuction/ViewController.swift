@@ -19,27 +19,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var pictureCollectionView: UICollectionView!
     
     @IBOutlet weak var dateTextField: UITextField!
-    
-    var pictureArray: [UIImage] = []
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*
-        DropboxClientsManager.authorizedClient = DropboxClient.init(accessToken: API_KEY)
-        let client = DropboxClientsManager.authorizedClient
-        
-        for i in 0..<10{
-            client?.files.createFolderV2(path: "/" + String(100 - i)).response { response, error in
-                if let response = response {
-                    print(response)
-                } else if let error = error {
-                    print(error)
-                }
-            }
-        }  */
-        
         self.title = "Please select a sale date"
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
         
         pictureCollectionView.delegate = self
         pictureCollectionView.dataSource = self
@@ -85,7 +71,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
  
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as? UIImage
-        pictureArray.append(image!)
+        AppManager.shared.imageArray.append(image!)
         pictureCollectionView.reloadData()
         self.dismiss(animated: true, completion: nil)
     }
@@ -112,7 +98,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return pictureArray.count
+        return AppManager.shared.imageArray.count
     }
     
 
@@ -120,7 +106,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
         let cell: PictureCell = collectionView.dequeueReusableCell(withReuseIdentifier: "PictureCell", for: indexPath as IndexPath) as! PictureCell
         
-        cell.imageView.image = pictureArray[indexPath.item]
+        cell.imageView.image = AppManager.shared.imageArray[indexPath.item]
         
         return cell
     }
@@ -170,6 +156,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func onNextClicked(_ sender: Any) {
+        
+        AppManager.shared.saleDate = dateTextField.text
         
         let vc: InfoVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "InfoVC") as! InfoVC
         self.navigationController?.pushViewController(vc, animated: true)

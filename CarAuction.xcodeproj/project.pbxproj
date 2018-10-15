@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3314AEF6216CE6C200110A6D /* notice.html in Resources */ = {isa = PBXBuildFile; fileRef = 3314AEF4216CE6C200110A6D /* notice.html */; };
+		3314AEF7216CE6C200110A6D /* purchase.html in Resources */ = {isa = PBXBuildFile; fileRef = 3314AEF5216CE6C200110A6D /* purchase.html */; };
 		33591CDD2163380500E3790E /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33591CDC2163380500E3790E /* PictureCell.swift */; };
+		339CB9B721653C7D00D8AC8C /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CB9B621653C7D00D8AC8C /* FormVC.swift */; };
 		33C25F5C215D0A2C0085E428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C25F5B215D0A2C0085E428 /* AppDelegate.swift */; };
 		33C25F5E215D0A2C0085E428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C25F5D215D0A2C0085E428 /* ViewController.swift */; };
 		33C25F61215D0A2C0085E428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C25F5F215D0A2C0085E428 /* Main.storyboard */; };
@@ -17,6 +20,8 @@
 		33C25F7C215D0A2C0085E428 /* CarAuctionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C25F7B215D0A2C0085E428 /* CarAuctionUITests.swift */; };
 		33C954452163530E00F6E37D /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C954442163530E00F6E37D /* InfoVC.swift */; };
 		33D7E9AC215DD47600B257F1 /* PictureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7E9AB215DD47600B257F1 /* PictureVC.swift */; };
+		33D9554E216BE84B00E9F216 /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9554D216BE84B00E9F216 /* ReportVC.swift */; };
+		33D95550216BF69D00E9F216 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9554F216BF69D00E9F216 /* AppManager.swift */; };
 		461E6766EDD53C039158965D /* Pods_CarAuction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF9142C3E960F215A0A4206 /* Pods_CarAuction.framework */; };
 		622A8A3E8FF5AFBE98489052 /* Pods_CarAuctionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2484FCF2641961CD142D209 /* Pods_CarAuctionTests.framework */; };
 		65D4EA89803CFE72F393A8E6 /* Pods_CarAuctionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEF206E228AC3C628897BED /* Pods_CarAuctionUITests.framework */; };
@@ -40,7 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3314AEF4216CE6C200110A6D /* notice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = notice.html; sourceTree = "<group>"; };
+		3314AEF5216CE6C200110A6D /* purchase.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = purchase.html; sourceTree = "<group>"; };
 		33591CDC2163380500E3790E /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		339CB9B621653C7D00D8AC8C /* FormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
 		33C25F58215D0A2C0085E428 /* CarAuction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAuction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C25F5B215D0A2C0085E428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33C25F5D215D0A2C0085E428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,8 @@
 		33C25F7D215D0A2C0085E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33C954442163530E00F6E37D /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 		33D7E9AB215DD47600B257F1 /* PictureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureVC.swift; sourceTree = "<group>"; };
+		33D9554D216BE84B00E9F216 /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		33D9554F216BF69D00E9F216 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		54D47FB46F76F6F2ABE1821C /* Pods-CarAuctionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuctionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuctionTests/Pods-CarAuctionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69A56006EE245DDC77C0BEB3 /* Pods-CarAuctionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarAuctionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarAuctionUITests/Pods-CarAuctionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AEF206E228AC3C628897BED /* Pods_CarAuctionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarAuctionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,11 +143,16 @@
 		33C25F5A215D0A2C0085E428 /* CarAuction */ = {
 			isa = PBXGroup;
 			children = (
+				3314AEF4216CE6C200110A6D /* notice.html */,
+				3314AEF5216CE6C200110A6D /* purchase.html */,
+				33D9554F216BF69D00E9F216 /* AppManager.swift */,
 				33C25F5B215D0A2C0085E428 /* AppDelegate.swift */,
 				33D7E9AB215DD47600B257F1 /* PictureVC.swift */,
 				33C25F5D215D0A2C0085E428 /* ViewController.swift */,
 				33C954442163530E00F6E37D /* InfoVC.swift */,
 				33591CDC2163380500E3790E /* PictureCell.swift */,
+				339CB9B621653C7D00D8AC8C /* FormVC.swift */,
+				33D9554D216BE84B00E9F216 /* ReportVC.swift */,
 				33C25F5F215D0A2C0085E428 /* Main.storyboard */,
 				33C25F62215D0A2C0085E428 /* Assets.xcassets */,
 				33C25F64215D0A2C0085E428 /* LaunchScreen.storyboard */,
@@ -282,6 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3314AEF7216CE6C200110A6D /* purchase.html in Resources */,
+				3314AEF6216CE6C200110A6D /* notice.html in Resources */,
 				33C25F66215D0A2C0085E428 /* LaunchScreen.storyboard in Resources */,
 				33C25F63215D0A2C0085E428 /* Assets.xcassets in Resources */,
 				33C25F61215D0A2C0085E428 /* Main.storyboard in Resources */,
@@ -314,12 +331,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CarAuction/Pods-CarAuction-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,11 +407,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D9554E216BE84B00E9F216 /* ReportVC.swift in Sources */,
 				33591CDD2163380500E3790E /* PictureCell.swift in Sources */,
 				33C25F5E215D0A2C0085E428 /* ViewController.swift in Sources */,
+				339CB9B721653C7D00D8AC8C /* FormVC.swift in Sources */,
 				33C25F5C215D0A2C0085E428 /* AppDelegate.swift in Sources */,
 				33D7E9AC215DD47600B257F1 /* PictureVC.swift in Sources */,
 				33C954452163530E00F6E37D /* InfoVC.swift in Sources */,
+				33D95550216BF69D00E9F216 /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +591,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4URJ54RTED;
 				INFOPLIST_FILE = CarAuction/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,7 +611,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4URJ54RTED;
 				INFOPLIST_FILE = CarAuction/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

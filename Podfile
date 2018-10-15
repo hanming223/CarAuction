@@ -9,6 +9,7 @@ target 'CarAuction' do
 
   pod 'SwiftyDropbox'
   pod 'IQKeyboardManager'
+  pod 'MBProgressHUD', '~> 1.1.0'
 
   target 'CarAuctionTests' do
     inherit! :search_paths
